@@ -2,7 +2,8 @@
 name = "task_manager"
 version = "0.1.0"
 description = ""
-authors = ["margo-noise <margo.stn@gmail.com>"]
+authors = ["margo-noise <margo.stn@gmail.com>",
+           "Konstantin Freidlin <freidlinks@ya.ru>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
