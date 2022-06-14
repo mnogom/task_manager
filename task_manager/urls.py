@@ -6,4 +6,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('labels/', include('task_manager.apps.label.urls')),
+    path('statuses/', include('task_manager.apps.status.urls')),
 ]
