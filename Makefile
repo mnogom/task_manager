@@ -21,7 +21,7 @@ load-fixtures:
 
 # ---- Linter, Tests
 lint:
-	poetry run flake8
+	poetry run flake8 --config linter-setup.cfg
 
 test:
 	echo poetry run coverage run --source '.' manage.py test task_manager/apps/
