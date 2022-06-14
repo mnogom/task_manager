@@ -8,7 +8,7 @@ from .serializers import StatusSerializer
 
 
 class ListCreateStatusView(ListCreateAPIView):
-    queryset = Status.objects.order_by('name')
+    queryset = Status.objects.order_by('created_at')
     serializer_class = StatusSerializer
 
 

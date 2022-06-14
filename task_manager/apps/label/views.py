@@ -8,7 +8,7 @@ from .serializers import LabelSerializer
 
 
 class ListCreateLabelView(ListCreateAPIView):
-    queryset = Label.objects.order_by('name')
+    queryset = Label.objects.order_by('created_at')
     serializer_class = LabelSerializer
 
 
