@@ -3,7 +3,6 @@ __pycache__
 .env
 .env.dev
 .env.prod
-.env.example
 dist
 .vscode
 .idea

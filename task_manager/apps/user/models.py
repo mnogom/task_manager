@@ -5,6 +5,7 @@ from django.core.validators import EmailValidator
 from django.utils.translation import gettext_lazy as _
 
 
+
 class User(AbstractUser):
     username_validator = UnicodeUsernameValidator()
     email_validator = EmailValidator()
