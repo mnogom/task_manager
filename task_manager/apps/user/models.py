@@ -4,6 +4,10 @@ from django.contrib.auth.validators import UnicodeUsernameValidator
 from django.core.validators import EmailValidator
 from django.utils.translation import gettext_lazy as _
 
+<<<<<<< HEAD
+from django.db import models  # noqa: F401
+=======
+>>>>>>> 03b0126ad80b1189cc5db3712f24e85eb4502c73
 
 
 class User(AbstractUser):
