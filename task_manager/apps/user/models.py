@@ -4,6 +4,8 @@ from django.contrib.auth.validators import UnicodeUsernameValidator
 from django.core.validators import EmailValidator
 from django.utils.translation import gettext_lazy as _
 
+from django.db import models  # noqa: F401
+
 
 class User(AbstractUser):
     username_validator = UnicodeUsernameValidator()

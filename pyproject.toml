@@ -2,7 +2,8 @@
 name = "task_manager"
 version = "0.1.0"
 description = ""
-authors = ["margo-noise <margo.stn@gmail.com>"]
+authors = ["margo-noise <margo.stn@gmail.com>",
+           "Konstantin Freidlin <freidlinks@ya.ru>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
@@ -10,6 +11,8 @@ Django = "^4.0.5"
 djangorestframework = "^3.13.1"
 python-dotenv = "^0.19.0"
 dj-database-url = "^0.5.0"
+PyYAML = "^6.0"
+flake8 = "^4.0.1"
 
 [tool.poetry.dev-dependencies]
 
